@@ -7,3 +7,28 @@
 //
 
 import Foundation
+import UIKit
+
+class GameOver: UIViewController {
+    
+    @IBOutlet weak var HighestScore: UILabel!
+    
+    @IBOutlet weak var CurrentScore: UILabel!
+    override func viewDidLoad() {
+       
+        
+        
+        _ = UserDefaults.standard
+        let ScoreDefaultNew = UserDefaults.standard
+        
+        let Score = ScoreDefaultNew.value(forKey: "TempScore") as! NSInteger
+        let Highscore = ScoreDefaultNew.value(forKey: "Highscore") as! NSInteger
+        
+     
+        HighestScore.text = "\(Highscore)"
+        CurrentScore.text = "\(Score)"
+        
+        
+      
+    }
+}

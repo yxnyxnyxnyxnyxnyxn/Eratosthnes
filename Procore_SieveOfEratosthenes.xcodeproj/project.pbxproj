@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022F44F61DF7444F009C263C /* SieveAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F44F51DF7444F009C263C /* SieveAlgo.swift */; };
+		02741EB31DF725320045B095 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02741EB21DF725320045B095 /* BasicViewController.swift */; };
+		02741EB51DF72AAF0045B095 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02741EB41DF72AAF0045B095 /* GameViewController.swift */; };
 		02894F6F1DF6FA000078C5CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02894F6E1DF6FA000078C5CB /* AppDelegate.swift */; };
-		02894F711DF6FA000078C5CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02894F701DF6FA000078C5CB /* ViewController.swift */; };
 		02894F741DF6FA000078C5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02894F721DF6FA000078C5CB /* Main.storyboard */; };
 		02894F761DF6FA000078C5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02894F751DF6FA000078C5CB /* Assets.xcassets */; };
 		02894F791DF6FA000078C5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02894F771DF6FA000078C5CB /* LaunchScreen.storyboard */; };
+		0296FE511DF868D600FF721C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02894F701DF6FA000078C5CB /* HomeViewController.swift */; };
+		02C35C331DF9D49B0052C990 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C35C321DF9D49B0052C990 /* CollectionCell.swift */; };
+		02C35C571DFB130B0052C990 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C35C561DFB130B0052C990 /* GameOver.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		02C35BF81DF9343A0052C990 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		022F44F51DF7444F009C263C /* SieveAlgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SieveAlgo.swift; sourceTree = "<group>"; };
+		02741EB21DF725320045B095 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		02741EB41DF72AAF0045B095 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		02894F6B1DF6FA000078C5CB /* Procore_SieveOfEratosthenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procore_SieveOfEratosthenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02894F6E1DF6FA000078C5CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02894F701DF6FA000078C5CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02894F701DF6FA000078C5CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		02894F731DF6FA000078C5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02894F751DF6FA000078C5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02894F781DF6FA000078C5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02894F7A1DF6FA000078C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C35C321DF9D49B0052C990 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		02C35C561DFB130B0052C990 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022F44F71DF74454009C263C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				022F44F51DF7444F009C263C /* SieveAlgo.swift */,
+				02C35C321DF9D49B0052C990 /* CollectionCell.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		02894F621DF6FA000078C5CB = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +86,34 @@
 		02894F6D1DF6FA000078C5CB /* Procore_SieveOfEratosthenes */ = {
 			isa = PBXGroup;
 			children = (
-				02894F6E1DF6FA000078C5CB /* AppDelegate.swift */,
-				02894F701DF6FA000078C5CB /* ViewController.swift */,
 				02894F721DF6FA000078C5CB /* Main.storyboard */,
-				02894F751DF6FA000078C5CB /* Assets.xcassets */,
-				02894F771DF6FA000078C5CB /* LaunchScreen.storyboard */,
-				02894F7A1DF6FA000078C5CB /* Info.plist */,
+				022F44F71DF74454009C263C /* Helper */,
+				02894F811DF6FAF10078C5CB /* ViewControllers */,
+				02894F801DF6FAC80078C5CB /* Others */,
 			);
 			path = Procore_SieveOfEratosthenes;
+			sourceTree = "<group>";
+		};
+		02894F801DF6FAC80078C5CB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				02894F6E1DF6FA000078C5CB /* AppDelegate.swift */,
+				02894F751DF6FA000078C5CB /* Assets.xcassets */,
+				02894F7A1DF6FA000078C5CB /* Info.plist */,
+				02894F771DF6FA000078C5CB /* LaunchScreen.storyboard */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		02894F811DF6FAF10078C5CB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				02741EB21DF725320045B095 /* BasicViewController.swift */,
+				02741EB41DF72AAF0045B095 /* GameViewController.swift */,
+				02C35C561DFB130B0052C990 /* GameOver.swift */,
+				02894F701DF6FA000078C5CB /* HomeViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +126,7 @@
 				02894F671DF6FA000078C5CB /* Sources */,
 				02894F681DF6FA000078C5CB /* Frameworks */,
 				02894F691DF6FA000078C5CB /* Resources */,
+				02C35BF81DF9343A0052C990 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02894F711DF6FA000078C5CB /* ViewController.swift in Sources */,
+				0296FE511DF868D600FF721C /* HomeViewController.swift in Sources */,
+				02741EB51DF72AAF0045B095 /* GameViewController.swift in Sources */,
+				02C35C571DFB130B0052C990 /* GameOver.swift in Sources */,
+				02741EB31DF725320045B095 /* BasicViewController.swift in Sources */,
+				022F44F61DF7444F009C263C /* SieveAlgo.swift in Sources */,
 				02894F6F1DF6FA000078C5CB /* AppDelegate.swift in Sources */,
+				02C35C331DF9D49B0052C990 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/build/Debug-iphoneos";
 				INFOPLIST_FILE = Procore_SieveOfEratosthenes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xnyang.Procore-SieveOfEratosthenes";
@@ -272,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/build/Debug-iphoneos";
 				INFOPLIST_FILE = Procore_SieveOfEratosthenes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xnyang.Procore-SieveOfEratosthenes";
@@ -299,6 +359,7 @@
 				02894F7F1DF6FA000078C5CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
